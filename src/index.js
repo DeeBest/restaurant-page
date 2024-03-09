@@ -1,1 +1,5 @@
-alert('Hello');
+import "./index.css";
+
+
+
+console.log("Hello");
