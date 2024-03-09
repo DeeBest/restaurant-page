@@ -1,5 +1,5 @@
 import "./index.css";
+import { sayName } from "./Pages/home-page/homePage.js";
 
-
-
-console.log("Simphiwe");
+const mainContentContainer = document.getElementById('content');
+sayName();
