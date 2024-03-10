@@ -5,7 +5,8 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-  background-color: aqua;
+  background-color: #ecf5da;
+  color: rgb(125, 181, 75);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -13,6 +14,47 @@ body{
 }
 header{
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(68, 110, 31);
+  border-right: 10px solid rgb(68, 110, 31);  
+}
+#logo-div{
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+}
+#logo-image{
+  width: 150px;
+  height: auto;
+}
+#logo-div h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(68, 110, 31);
+  font-style: italic;
+  border-bottom: 5px solid rgb(68, 110, 31); 
+}
+nav{
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  align-items: center;
+}
+nav button {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  background-color: rgb(68, 110, 31);
+  color: rgb(225, 237, 216);
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  transition: background-color 0.8s, color 0.8s; 
+}
+nav button:hover{
+  background-color: rgb(225, 237, 216);
+  color: rgb(68, 110, 31);
+
 }
 main{
   flex: 1;
