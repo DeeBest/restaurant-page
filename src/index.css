@@ -5,7 +5,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-  background-color: #ecf5da;
+  /* background-color: #ecf5da; */
   background-image: url(./Assets/background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +52,8 @@ nav button {
   padding: 5px;
   background-color: rgb(68, 110, 31);
   color: rgb(225, 237, 216);
+  font-size: medium;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 15px;
   border: none;
@@ -66,7 +68,7 @@ main{
   flex: 1;
   padding: 20px;
   background-color: #ecf5da;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 main h1 {
   text-align: center;
@@ -74,10 +76,15 @@ main h1 {
   color: rgb(68, 110, 31);
   font-style: italic;
   text-decoration: underline;
+  margin-bottom: 20px;
 }
 footer{
   padding: 20px;
   text-align: center;
   background-color: #ecf5da;
-  opacity: 0.6; 
+  opacity: 0.6;
+  border-top: 10px solid rgb(68, 110, 31);
+  border-left: 10px solid rgb(68, 110, 31);
+  font-size: large;
+  font-weight: 600;
 }
