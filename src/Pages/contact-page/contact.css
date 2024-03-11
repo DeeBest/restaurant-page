@@ -1,0 +1,52 @@
+#contact-page-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(68, 110, 31);
+  width: 40%;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid rgb(240, 205, 160);
+}
+#contact-form label{
+  display: block;
+  margin: 5px 0px;
+  align-self: flex-start;
+  font-size: large;
+  font-weight: 600;
+}
+#contact-form input, textarea{
+  border: 3px solid rgb(240, 205, 160);
+  border-radius: 15px;
+  padding: 5px;
+  color: rgb(68, 110, 31);
+  font-size: large;
+  font-weight: 600;
+  font-style: italic;
+}
+#contact-form button {
+  margin-top: 5px;
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  align-self: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(240, 205, 160);
+  color: rgb(68, 110, 31);
+  font-size: large;
+  font-weight: 650;
+}
+#contact-form button:hover{
+  background-color: rgb(118, 145, 94);
+  color: aliceblue;
+}
