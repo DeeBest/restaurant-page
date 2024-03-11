@@ -50,3 +50,8 @@
   background-color: rgb(118, 145, 94);
   color: aliceblue;
 }
+@media screen and (max-width: 700px) {
+  #contact-form{
+    min-width: 95%;
+  }
+  }
