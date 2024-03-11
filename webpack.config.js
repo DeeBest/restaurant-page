@@ -36,4 +36,8 @@ module.exports = {
       },
     ],
   },
+  watchOptions: {
+    ignored: /node_modules/,
+  },
+  devtool: 'cheap-module-source-map',
 };
