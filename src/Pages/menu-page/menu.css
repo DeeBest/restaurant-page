@@ -1,0 +1,42 @@
+#menu-page-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#menu-cards-div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.menu-card{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: cadetblue;
+  border-right: 4px solid rgb(68, 110, 31);
+  border-bottom: 4px solid rgb(68, 110, 31);
+  border-radius: 15px;
+}
+.menu-card h2{
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+}
+#menu-card1{
+  color: aqua;
+}
+#menu-card2{
+  color: rgb(219, 226, 30);
+}
+#menu-card3{
+  color: #27ea04f9;
+}
+#menu-card4{
+  color: rgb(14, 34, 185);
+}
+#menu-card5{
+  color: rgb(181, 33, 67);
+}
+#menu-card6{
+  color: rgb(52, 58, 58);
+}
