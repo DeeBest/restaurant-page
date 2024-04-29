@@ -15,9 +15,11 @@ This is a multi page restaurant website, it is a project I built for the Odin pr
 
 ## Tech stack used
 
+- GIT
 - HTML
 - CSS
 - JavaScript
+- NPM
 - Webpack
 
 ## Contact
@@ -25,5 +27,7 @@ This is a multi page restaurant website, it is a project I built for the Odin pr
 Get in touch:
 
 Email : **<simphiwedladla8@gmail.com>**
+
 Linked: **<https://www.linkedin.com/in/dladla-simphiwe-89061a20a/>**
+
 Github: **<https://github.com/DeeBest>**
