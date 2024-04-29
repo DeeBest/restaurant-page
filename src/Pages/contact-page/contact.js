@@ -1,8 +1,7 @@
 import './contact.css';
 import { mainContentContainer } from '../../index.js';
 
-
-export function createContactPage(){
+export function createContactPage() {
   mainContentContainer.textContent = '';
 
   const contactPageContent = document.createElement('div');
@@ -46,11 +45,13 @@ export function createContactPage(){
   const submitButton = document.createElement('button');
   submitButton.type = 'submit';
   submitButton.textContent = 'Submit';
+  submitButton.addEventListener('click', (e) => {
+    e.preventDefault();
+  });
   contactForm.appendChild(submitButton);
-
 
   contactPageContent.appendChild(contactPageHeader);
   contactPageContent.appendChild(contactForm);
 
   mainContentContainer.appendChild(contactPageContent);
-};
+}

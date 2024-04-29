@@ -65,8 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-function createContactPage(){
+function createContactPage() {
   _index_js__WEBPACK_IMPORTED_MODULE_1__.mainContentContainer.textContent = '';
 
   const contactPageContent = document.createElement('div');
@@ -110,14 +109,17 @@ function createContactPage(){
   const submitButton = document.createElement('button');
   submitButton.type = 'submit';
   submitButton.textContent = 'Submit';
+  submitButton.addEventListener('click', (e) => {
+    e.preventDefault();
+  });
   contactForm.appendChild(submitButton);
-
 
   contactPageContent.appendChild(contactPageHeader);
   contactPageContent.appendChild(contactForm);
 
   _index_js__WEBPACK_IMPORTED_MODULE_1__.mainContentContainer.appendChild(contactPageContent);
-};
+}
+
 
 /***/ }),
 
